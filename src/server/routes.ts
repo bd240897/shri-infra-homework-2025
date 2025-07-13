@@ -20,6 +20,7 @@ router.get('/catalog/:id', indexHtml);
 router.get('/delivery', indexHtml);
 router.get('/contacts', indexHtml);
 router.get('/cart', indexHtml);
+router.get('/about', indexHtml);
 
 router.get('/api/products', (req, res) => {
     const products = store.getAllProducts();
